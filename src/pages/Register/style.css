@@ -1,0 +1,38 @@
+.form-register{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 300px;
+  font-weight: 700;
+  font-family: Quicksand,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}
+.register-form-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 600px;
+    width: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #f9fbfd;
+}
+.register-form img{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+.form-register div {
+  color: #696261;
+}
+.form-register button {
+  width: 100%;
+}

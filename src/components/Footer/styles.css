@@ -1,0 +1,43 @@
+.container-footer{
+  background: #fafafa;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  word-wrap: break-word;
+  /* position: relative; */
+}
+.footer-wrapper{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2rem;
+  align-items: center;
+}
+.footer-wrapper >div {
+  width: 30%;
+}
+.footer-title{
+  font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.app-connect{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+.social-network{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.noti-footer{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -0.5rem;
+}
+.logo-footer{
+  padding-left: 3.5rem;
+  padding-bottom: 1rem;
+}

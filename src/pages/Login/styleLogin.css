@@ -1,0 +1,73 @@
+.login-form-container{
+  overflow: hidden;
+  height: 100vh;
+}
+.login-form-container img{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+}
+.login-form-wrapper{
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+    height: 400px;
+    width: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #f9fbfd;
+}
+.login-form{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 30px;
+  width: 350px;
+}
+.login-form .child-item{
+  font-weight: 700;
+  color: #3f556b !important;
+
+  
+}
+.login-form button{
+  width: 100%;
+}
+.register-form-login{
+  padding-bottom: 8px;
+  color: #8a98a6 !important;
+
+}
+.register-form-login >span{
+  color: #00aaf7!important;
+  cursor: pointer;
+}
+.login-form-wrapper h3{
+  font-weight: 700;
+  color: #8a98a6 !important;
+  font-family: Quicksand,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif !important;
+}
+.checked-remember{
+  color: #8a98a6 !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+}
+.save-account .ant-form-item-control-input-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-form-forgot{
+  color: #00aaf7;
+  cursor: pointer;
+}
+

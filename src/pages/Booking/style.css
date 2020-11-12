@@ -1,0 +1,243 @@
+.booking-container {
+  display: flex;
+  width: 90%;
+  margin: 3rem 4.5rem 0;
+  line-height: inherit;
+}
+.info-user-booking {
+  width: 55%;
+  border: 1px solid #cbd3db;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+.info-user-booking > div {
+  margin: 0 1rem;
+}
+.bill-booking {
+  margin-left: 2rem;
+  width: 40%;
+}
+.checkIn-booking {
+  display: flex !important;
+  justify-content: end;
+  width: 80%;
+}
+.checkIn-booking > span:first-child {
+  width: 100px;
+}
+.address-detail-room img {
+  margin-bottom: 12px;
+}
+
+.bill-booking-room-container {
+  width: 100%;
+  border: 1px solid #cbd3db;
+  border-radius: 4px;
+  background-color: #fafbfd;
+
+}
+.title-room-detail-booking {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 0 10px 10px;
+  font-size: 120%;
+  background-color: #8fc63d;
+  color: #fff;
+}
+.name-room-detail-booking {
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  font-family:Bookman, Tahoma, Verdana;
+  color: darkslategrey;
+
+}
+.price-raw-room {
+  display: flex;
+  justify-content: space-between;
+}
+.content-bill-head-room {
+  margin: 2rem 8px;
+  background-color: #fff;
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.02);
+}
+.price-room-other > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 0;
+}
+.price-room-other {
+  margin: 0 8px;
+  background-color: #fff;
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.02);
+}
+.total-bill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 1rem 8px;
+  font-size: 150%;
+  background-color: #fff;
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.02);
+}
+.price {
+  color: #4caf50;
+}
+.code-discount-room .ant-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.number-booking .ant-input {
+  margin-left: 2.5rem;
+  height: 30px;
+  width: 106px;
+}
+.number-booking  .ant-form-item-explain div:first-child{
+  margin-left: 2.5rem;
+}
+.code-discount-container {
+  margin: 8px 8px;
+  background-color: #fff;
+  color: #00adef;
+}
+.address-wrapper-room {
+  margin: 1rem 0 2rem;
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.02);
+  background-color: #fafbfd;
+}
+.note1-booking-room {
+  padding: 8px 10px;
+  margin: 8px 0;
+  text-align: center;
+  color: #31708f;
+  border-color: #faebcc;
+  background-color: #d9edf7;
+}
+.note2-booking-room {
+  margin: 8px 0;
+  padding: 8px 10px;
+  text-align: center;
+  background-color: #fcf8e3;
+  border-color: #bce8f1;
+  color: #8a6d3b;
+}
+.info-email-phone,
+.info-name-address {
+  display: flex;
+  justify-content: space-between;
+}
+.info-contact-wrapper {
+  color: #555;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.info-name-address > div,
+.info-email-phone > div {
+  width: 250px;
+}
+.info-contact-container .ant-form-item-required {
+  font-size: 15px !important;
+  font-family: "Open Sans", sans-serif !important;
+  line-height: 1.4em !important;
+  font-weight: 600 !important;
+
+  color: #333 !important;
+}
+.pay-booking-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem 0;
+}
+.pay-booking-room button {
+  width: 120px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+.info-contact-container {
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.02);
+  background-color: #fafbfd;
+}
+.pay-way-booking .ant-radio-button-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+}
+.pay-way-booking .ant-radio-group{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.pay-way-booking .ant-radio-button-wrapper {
+    border-radius: 4px;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    font-family: 'Open Sans',sans-serif !important;
+}
+.pay-way-booking .ant-radio-button-wrapper .ant-radio-button{
+  border: 1px solid #40a9ff;
+}
+.card-booking{
+  padding:1rem 0 1rem  1rem;
+  width: 90%;
+}
+.pay-booking-room-safe{
+  padding:0 0 0.5rem 1rem;
+}
+.pay-booking-room-safe > img{
+  padding-right: 8px;
+}
+.pay-booking-room-wrapper{
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #cbd3db;
+  margin: 1.5rem 4px 2rem;  
+}
+.pay-booking-room-wrapper:before{
+  content: "";
+	position: absolute;
+	top: -10px;
+	left: 90px;
+	border-bottom: 10px solid #a3b0c4;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+.pay-booking-room-wrapper1:before{
+  content: "";
+	position: absolute;
+	top: -10px;
+	left: 300px;
+	border-bottom: 10px solid #a3b0c4;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+.pay-booking-room-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf8e3;
+  border:solid 1px #cbd3db;
+  color: #c09853;
+    padding: 15px 10px;
+    margin: 1rem 10px 0;
+    border-radius: 4px;
+}
+.pay-booking-room-wrapper2:before{
+  content: "";
+	position: absolute;
+	top: -10px;
+	left: 510px;
+	border-bottom: 10px solid #a3b0c4;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
